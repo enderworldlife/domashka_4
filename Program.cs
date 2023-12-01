@@ -1,2 +1,21 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+// zadanye 1
+
+bool run = true;
+while (run == true){
+    Console.Write("Input: ");
+    string input = Console.ReadLine();
+    if (input == "q"){
+        run = false;
+    }
+}
+
+
+
+
+
+
+
+
+
+
